@@ -1,0 +1,31 @@
+# Ignore some static files and directories.
+/.htaccess
+/config.php
+/favicon.ico
+/index.php
+/LICENSE.txt
+/CHANGELOG.txt
+/COPYRIGHT.txt
+/CONTRIBUTING.md
+/robots.php
+/robots.txt
+/web.config
+/admin/
+/assets/
+/data/
+/includes/
+/install/
+/uploads/
+/vendor
+/composer.json
+/.gitattributes
+
+# Ignore fix module files and directories.
+/modules/*
+!/modules/imessage
+/themes/*
+!/themes/admin_default
+/themes/admin_default/*
+!/themes/admin_default/modules
+/themes/admin_default/modules/*
+!/themes/admin_default/modules/imessage
